@@ -4,26 +4,27 @@ body {
     background: #f4f6f8;
     color: #1f2933;
 }
+
 /* ---------------------------------------------------------------------------------------------- */
 .hero-image {
-  height: 66dvh;
-  background-image: url("images/globally.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} 
+    height: 66dvh;
+    background-image: url("images/globally.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .hero-tekst {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
-        line-height: 1.6;
-        white-space: pre-line;
+    line-height: 1.6;
+    white-space: pre-line;
 }
 
 /* ---------------------------------------------------------------------------------------------- */
@@ -63,7 +64,8 @@ body {
 .card-btn {
     margin: 0 15px 20px 15px;
     padding: 10px 20px;
-    background: rgb(245, 230, 200);;
+    background: rgb(245, 230, 200);
+    ;
     border: none;
     border-radius: 6px;
     color: rgb(74, 47, 27);
@@ -159,20 +161,20 @@ footer {
         grid-template-columns: 1fr;
     }
 
-  .hero-image {
-    height: 45vh;
-    height: 45dvh;
-  }
-    
+    .hero-image {
+        height: 45vh;
+        height: 45dvh;
+    }
+
 
     .hero-tekst {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
         line-height: 1.2;
         white-space: pre-line;
@@ -181,18 +183,20 @@ footer {
     #title {
         font-size: 1.5rem;
     }
+
     #subtitle {
         font-size: 1rem;
     }
-    .grid-item h2 {
-    margin: 15px;
-    font-size: 1.3rem;
-}
 
-.grid-item p {
-    margin: 0 15px 20px 15px;
-    line-height: 1.4;
-    white-space: pre-line;
-}
+    .grid-item h2 {
+        margin: 15px;
+        font-size: 1.3rem;
+    }
+
+    .grid-item p {
+        margin: 0 15px 20px 15px;
+        line-height: 1.4;
+        white-space: pre-line;
+    }
 
 }
