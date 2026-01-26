@@ -87,8 +87,6 @@ nav {
   justify-content: flex-start;
   font: bold normal 18px Verdana, Arial, Helvetica, sans-serif;
   color: #000;
-  position: relative;
-  top: 3px;
 }
 
 /* Kontakt link i højre side */
@@ -156,5 +154,15 @@ nav {
   .nav-container {
     background-color: #fff;
     padding: 10px 10px 5px 10px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font: bold normal 18px Verdana, Arial, Helvetica, sans-serif;
+    color: #000;
+    position: relative;
+    top: 5px;
   }
 }
