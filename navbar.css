@@ -158,7 +158,6 @@ nav {
 
   .brand {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
     font: bold normal 18px Verdana, Arial, Helvetica, sans-serif;
     color: #000;
