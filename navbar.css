@@ -55,6 +55,9 @@ nav {
 
 /* Hamburger menu */
 .hamburger-btn {
+  /* width: 44px;
+  height: 44px; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,6 +75,11 @@ nav {
   -webkit-appearance: none;
   appearance: none;
   -webkit-tap-highlight-color: transparent;
+}
+
+.hamburger-icon {
+  display: block;
+  line-height: 1;
 }
 
 /* Brand-navnet */
