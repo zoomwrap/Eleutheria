@@ -56,12 +56,16 @@ nav {
 /* Hamburger menu */
 .hamburger-btn {
   color: #000;
-  font-weight: bold;
   background: none;
   border: none;
   font-size: 28px;
+  font-weight: bold;
   cursor: pointer;
   line-height: 1;
+
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Brand-navnet */
